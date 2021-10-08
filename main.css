@@ -150,7 +150,7 @@ html {
 @media screen and (max-width: 765px) {
   #life iframe {
     width:80vw;
-    height:min(140vw, 90vh);
+    height:min(140vw, 80vh);
   }
 }
 #summary {
