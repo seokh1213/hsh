@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="main.css"/>
+  </head>
+  <body>
+    <header>
+      <div>홍 석 현</div>
+      <nav>
+        <ul>
+          <li id="life-tab">def <span class="italic">life</span>( ):</li>
+          <li id="summary-tab">def <span class="italic">summary</span>( ):</li>
+          <li>
+            <a href="https://github.com/seokh1213" target="_blank">
+              <svg width="1.3rem" height="1.3rem" fill="#387fea" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" role="img" aria-labelledby="GithubIcoTitle" class="ico"><title id="GithubIcoTitle">GitHub logo</title><path fill-rule="evenodd" d="M8 0C3.6 0 0 3.6 0 8c0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4v-1.4c-2.2.5-2.7-1.1-2.7-1.1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.2 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6 0 1.3-.1 2-.1s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.3.6.8.6 1.5v2.2c0 .2.1.5.6.4C13.7 14.5 16 11.5 16 8c0-4.4-3.6-8-8-8z" clip-rule="evenodd"></path></svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="header"></div>
+    <div id="life" class="content">
+      <section>
+        <div class="first-section">
+          <h1>def <span class="italic">life</span>( ):</h1>
+          <p>name = "홍석현"</p>
+          <p>gender = "male"</p>
+          <p>born_at = "1997-12-13"</p>
+          <p>university = "SSU"</p>
+          <p>comment = "Backend developer"</p>
+          <p>return " ".join([name, gender, born_at, university, comment])</p>
+        </div>
+      </section>
+      <section>
+        <div class="second-section">
+          <h1>Project - <a href="https://www.joycourse.app" target="_blank" class="italic highlight">JoyCourse</a></h1>
+          <p>데이트 코스를 공유하는 커뮤니티입니다. 새로운 경험을 찾는 수고로움을 덜어주기 위해 기획하였습니다.</p>
+          <p class="small">* 현재는 개발 단계로 아직 미완성입니다.</p>
+        </div>
+      </section>
+      <section>
+        <iframe src="https://www.joycourse.app"></iframe>
+      </section>
+      <div>
+        <div id="circle"></div>
+        <div id="line"></div>
+      </div>
+    </div>
+    <div id="summary" class="content">
+      <section>
+        <h1>def <span class="italic">summary</span>( ):</h1>
+        <div class="describe">
+          <p>return "안녕하세요. 현재는 숭실대학교 소프트웨어학부 4학년 홍석현 입니다. 관심 분야는 백엔드와 딥러닝 입니다. 넓은 식견을 가지기위해 이것 저것 다양하게 해보려고 노력하는 중입니다!"</p>
+        </div>
+        <span class="comment">"""</span>
+        <div class="info">
+          <h2>@Main Skills</h2>
+          <div id="grid">
+            <div>
+              <p>Backend</p>
+              <ul>
+                <li>django</li>
+                <li>spring</li>
+                <li>nestjs</li>
+              </ul>
+            </div>
+            <div>
+              <p>Frontend</p>
+              <ul>
+                <li>javascript</li>
+                <li>typescript</li>
+                <li>html, css</li>
+                <li>react</li>
+              </ul>
+            </div>
+            <div>
+              <p>Etc.</p>
+              <ul>
+                <li>docker</li>
+                <li>nginx</li>
+                <li>ec2, rds, amplify</li>
+                <li>jenkins</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="info">
+          <h2>@Experience</h2>
+          <div id="grid">
+            <div>
+              <h4>소프트웨어마에스트로</h4>
+              <p>2017.08 - 2017.12</p>
+            </div>
+            <div>
+              <h4>Naver AI Rush</h4>
+              <p>2020.07 - 2020.08</p>
+            </div>
+            <div>
+              <h4>JoyCourse</h4>
+              <p>2021.08 - now</p>
+            </div>
+          </div>
+        </div>
+        <div class="info">
+          <h2>@Interests</h2>
+          <div id="grid">
+            <div>Movie</div>
+            <div>Computer Games</div>
+            <div>Toy Project</div>
+          </div>
+        </div>
+        <span class="comment">"""</span>
+      </section>
+    </div>
+    <script src="main.js" ></script>
+  </body>
+</html>
