@@ -32,9 +32,6 @@ header {
   background-color: #1e1e1e;
   z-index:1;
 }
-#header {
-  height: calc(40px + 1.3rem);
-}
 header nav{
   flex:1 ;
 }
@@ -108,9 +105,9 @@ html {
   overscroll-behavior: none;
 }
 #life section {
-  scroll-snap-align: center;
-  margin-left: 2rem;
   height: 100vh;
+  scroll-snap-align: start;
+  margin-left: 2rem;
   display: flex;
   align-items: center;
 }
