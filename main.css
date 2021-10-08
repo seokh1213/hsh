@@ -105,7 +105,7 @@ header li.selected {
 html {
   overflow: auto;
   scroll-snap-type: y mandatory;
-  overflow-behavior: none;
+  overscroll-behavior: none;
 }
 #life section {
   scroll-snap-align: center;
