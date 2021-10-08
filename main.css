@@ -143,14 +143,13 @@ html {
 
 #life iframe {
   width:67.5vw;
-  height:120vw;;
+  height: min(140vw, 80vh);
   margin: auto;
   background-color: #fff;
 }
 @media screen and (max-width: 765px) {
   #life iframe {
     width:80vw;
-    height:min(140vw, 80vh);
   }
 }
 #summary {
