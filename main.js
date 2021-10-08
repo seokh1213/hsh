@@ -15,5 +15,5 @@ Object.keys(tabs).forEach(key=>tabs[key].addEventListener("click", e=>{
   contents[key].classList.remove("none");
 }));
 const styleEle=document.head.appendChild(document.createElement("style"));
-styleEle.innerHTML = `#life:after { height: calc(${document.getElementById("life").getBoundingClientRect().height}px - 50vh)}`;
+styleEle.innerHTML = `#life:after { height: calc(${document.getElementById("life").getBoundingClientRect().height}px - 90vh)}`;
 
